@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-color: rgb(153, 13, 153);
+        }
+        form{
+            background-color: cyan;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            margin-left: 400px;
+            margin-right: 400px;
+            border: black solid;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #text_login{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #slots{
+            text-align: left;
+            margin-top: 30px;
+            padding-left: 200px;
+            padding-right: 200px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #underlined_texts{
+            margin-top: 20px;
+            margin-bottom: 100px;
+            display: flex;
+            padding-left: 200px;
+            padding-right: 200px;
+            justify-content: space-between;
+        }
+
+        #button_1{
+            text-align: center;
+            margin-top: 30px;
+            padding-left: 200px;
+            padding-right: 200px;
+            margin-bottom: 30px;
+        }
+        #textbox{
+            width: 200px;
+            height: 30px;
+            text-align: center;
+            color: rgb(0, 0, 0, 80%);
+        }
+
+        .button{
+            height: 45px;
+            width: 100px;
+            background-color: rgb(55, 248, 184);
+            border: black solid;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.5s;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .button:hover{
+            height: 50px;
+            width: 105px;
+            background-color: aquamarine;
+            border: black solid;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.5s;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div id="text_login">
+            <h1>LOGIN</h1>
+        </div>
+        <div>
+            <div id="slots">
+                <div id="label_">
+                    <label id="label" for="email" focus>EMAIL</label>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email Adderss" id="textbox">
+                </div>
+            </div>
+            <div id="slots">
+                <div id="label_">
+                    <label id="label" for="password">PASSWORD</label>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Password" id="textbox">
+                </div>
+            </div>
+            <div  id="button_1">
+                <input type="button" value="LOGIN" class="button">
+            </div>
+            <div id="underlined_texts">
+                <div>
+                    <a href="register.html" target="_blank">REGISTER NOW</a>
+                </div>
+                <div>
+                    <a href="forgot.html" target="_blank">FORGOT PASSWORD</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

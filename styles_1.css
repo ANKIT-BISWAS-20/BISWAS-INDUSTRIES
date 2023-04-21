@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+body{
+    margin: 0;
+    background-color: purple;
+}
+
+#menu_bar{
+
+    position: fixed;
+    top:0; left: 0; right:0;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+
+#nav_bar{
+
+    font-size: 20px;
+    align-items: center;
+}
+
+#name_bar{
+
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+#name_1{
+    color: cyan;
+    font-family: 'Patua One', cursive;
+}
+
+#name_2{
+    color: cyan;
+    font-family: 'Patua One', cursive;
+}
+
+#logo{
+    transition: 1s;
+}
+
+#logo:hover{
+    font-weight: bold;
+    font-size: 27px;
+    transition: 1s;
+}
+
+
+#option_1_1{
+    padding: 20px;
+    color: cyan;
+    transition: 1s;
+}
+
+#option_1_1:hover{
+    color: #92FE9D;
+    font-size: 26px;
+    transition: 1s;
+    align-items: center;
+    text-decoration: underline;
+}
+
+
+/* home */
+#home{
+    margin-top: 70px;
+    height: 600px;
+    text-align: center;
+    top:0; left: 0; right:0;
+    transition: 1.5s;
+    background-color: rgb(0, 255, 255);
+    border: black solid;
+    display: flex;
+    border-radius: 0% 0% 0% 5%;
+}
+
+#home:hover{
+    margin-top: 70px;
+    height: 600px;
+    text-align: center;
+    top:0; left: 0; right:0;
+    transition: 1.5s;
+    animation-duration: 5s;
+    background-color: #92feccf5;
+    border: black solid;
+    display: flex;
+    border-radius: 0% 0% 30% 5%;  
+}
+
+
+#head_1{
+   margin-top: 200px;
+   
+}
+#para_1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#contact_btn{
+    font-family: 'Patua One', cursive;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 15px;
+    border: black solid;
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: cyan;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#contact_btn:hover{
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    background-color: cyan;
+    color: black;
+    border: black solid;
+    transition: 0.5s;
+    font-size: 25px;
+    cursor: pointer;
+}
+#my_img{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+#center_text{
+    margin-left: 800px;
+    text-align: center;
+}
+#circle {
+    margin-top: 100px;
+    margin-left: 50px;
+    background: linear-gradient(190deg, #8949db 50%, rgb(234, 80, 240) 100%);
+    border: black solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+#circle_1 {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(190deg, #8949db 50%, rgb(234, 80, 240) 100%);
+    border: black solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+#works{
+    margin-top: 50px;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    border: black solid;
+    border-radius: 15px;
+    transition: 1s;
+}
+#works:hover{
+    margin-top: 50px;
+    background-color: #92feccf5;
+    text-align: center;
+    border: black solid;
+    border-radius: 15px 20% 20% 15px;
+    transition: 1s;
+}
+#text_2{
+    margin-top: 100px;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 75px;
+}
+#boxes_1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#box{
+    padding-top: 50px;
+    height: 300px;
+    width: 400px;
+    transition: 1s;
+    background-color: #92FE9D;
+    border-radius: 15px;
+    border: black solid;
+    margin-bottom: 100px;
+    
+}
+
+#box:hover{
+    height: 350px;
+    width: 400px;
+    transition: 1s;
+    background-color: #432b85d5;
+    border-radius: 20px;
+    border: black solid;
+    margin-bottom: 50px;
+    color: aqua;
+}
+
+#para_2{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+#experience{
+    margin-top: 50px;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    border: black solid;
+    border-radius: 15px;
+    transition: 1s;
+}
+#experience:hover{
+    margin-top: 50px;
+    background-color: #92feccf5;
+    text-align: center;
+    border: black solid;
+    border-radius: 15px 20% 20% 15px;
+    transition: 1s;
+}
+#text_3{
+    margin-top: 100px;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 75px;
+}
+#box_2{
+    margin: 50px;
+    margin-top: 100px;
+}
+#boxes_2{
+    margin-bottom: 50px;
+    margin-right: 200px;
+    transition: 0.75s;
+    border-radius: 30px;
+    display: flex;
+    background-color: #92feccf5;
+    border: black solid;
+}
+
+#boxes_2:hover{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    transition: 0.75s;
+    border-radius: 30px 50% 50% 30px;
+    display: flex;
+    background-color: #8949db;
+    color: aqua;
+}
+
+#text_4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 750px;
+    text-align: left;
+
+}
+
+#img_2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: black solid;
+    background-color: rgb(211, 158, 255);
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#img_2:hover{
+
+    border: black solid;
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#para_3{
+    padding-top: 50px;
+}
