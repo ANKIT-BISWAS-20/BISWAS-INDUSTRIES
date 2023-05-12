@@ -2,6 +2,94 @@
 <html>
 <head>
 	<title>CONTACT US</title>
+	<style>
+		body{
+			background-color: blueviolet;
+			padding-top: 100px;
+			align-items: center;
+			padding-bottom: 100px;
+		}
+		#contact_box{
+			background-color: cyan;
+			height: 500px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			border: black solid;
+			text-align: center;
+			border-radius: 40px;
+			padding-top: 75px;
+			padding-bottom: 100px;
+			transition: 1.5s;
+		}
+
+		#contact_box:hover{
+			background-color: rgb(19, 252, 232);
+			border: black solid;
+			text-align: center;
+			border-radius: 40px 30% 40px 40px;
+			transition: 1.5s;
+		}
+		#heading{
+			padding-bottom: 25px;
+		}
+		#name_1{
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			width: 300px;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#dog{
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			width: 300px;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.any{
+			width: 290px;
+			height: 28px;
+			text-align: center;
+			border: black solid;
+			background-color: antiquewhite;
+			border-radius: 10px;
+			font-size: 15px;
+		}
+		#dog_1{
+			width: 130px;
+			height: 38px;
+			text-align: center;
+			border: black solid;
+			background-color: antiquewhite;
+			border-radius: 10px;
+			font-size: 15px;
+		}
+		#button{
+			background-color: greenyellow;
+			border: black solid;
+			height: 40px;
+			width: 100px;
+			border-radius: 10px;
+			transition: 0.5s;
+		}
+		#button:hover{
+			transition: 0.5s;
+			background-color: blueviolet;
+			color: azure;
+			border: black solid;
+			height: 50px;
+			width: 110px;
+			border-radius: 10px;
+		}
+
+
+	</style>
 </head>
 <body>
 	<div id="contact_box">
@@ -9,29 +97,31 @@
 			<h1>CONTACT US</h1>
 		</div>
 		<form>
-			<label for="name">Name:</label>
-			<input type="name" id="name" name="name" placeholder="Enter your full name">
-			<br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" placeholder="Enter your email address">
-			<br>
-			<label for="dob">Date of Birth:</label>
-			<input type="date" id="dob" name="dob" placeholder="Enter your date of birth">
-			<br>
-			<label for="gender">Gender:</label>
-			<select id="gender" name="gender">
-				<option value="male" selected>Male</option>
-				<option value="female">Female</option>
-				<option value="other">Other</option>
-			</select>
-			<br>
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="dob" placeholder="Enter your password">
-			<br>
-			<label for="capcha">Capcha:</label>
-			<input type="capcha" id="capcha" name="capche" placeholder="Enter your capcha">
-			<br>
-			<input type="submit" value="Submit">
+			<div id="name_1">
+				<input type="name" id="name" name="name" placeholder="Enter your full name" class="any" maxlength="30">
+			</div>
+			<div id="name_1">
+				<input type="email" id="email" name="email" placeholder="Email address" class="any" maxlength="30">
+			</div>
+			<div id="dog">
+				<div>
+					<input type="date" id="dog_1" name="dob" placeholder="Enter your date of birth">
+				</div>
+				<div>
+					<select id="dog_1" name="gender">
+						<option value="male" selected>Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+			</div>
+			<div id="name_1">
+				<input type="password" id="password" name="dob" placeholder="Password" class="any">
+			</div>
+			<div id="name_1">
+				<input cols="40" type="text" id="message" name="message" placeholder="Your message" class="any">
+			</div>
+			<input type="submit" value="Submit" id="button">
 		</form>
 	</div>
 </body>
